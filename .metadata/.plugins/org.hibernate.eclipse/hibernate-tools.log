@@ -1,0 +1,2 @@
+2021-03-22 17:51:26,036 2255519 [           main] WARN  rg.apache.axis.utils.JavaUtils  - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.
+2021-03-24 13:44:19,902 0      [           main] WARN  rg.apache.axis.utils.JavaUtils  - Unable to find required classes (javax.activation.DataHandler and javax.mail.internet.MimeMultipart). Attachment support is disabled.

@@ -1,0 +1,9 @@
+package uphf.ntr;
+
+import javax.xml.transform.Result;
+
+public interface FootResultServiceInterface {
+
+	Result retrieveResult(String team1, String team2);
+
+}

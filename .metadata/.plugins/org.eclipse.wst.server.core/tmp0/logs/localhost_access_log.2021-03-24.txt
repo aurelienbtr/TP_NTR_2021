@@ -1,0 +1,7 @@
+127.0.0.1 - - [24/Mar/2021:14:51:14 +0100] "GET / HTTP/1.1" 404 681
+127.0.0.1 - - [24/Mar/2021:14:51:20 +0100] "GET /BanqueTomcat/services/FootResultsService?wsdl HTTP/1.1" 500 6764
+127.0.0.1 - - [24/Mar/2021:14:51:20 +0100] "GET /BanqueTomcat/services/FootResultsService?wsdl HTTP/1.1" 500 6764
+0:0:0:0:0:0:0:1 - - [24/Mar/2021:14:51:31 +0100] "GET / HTTP/1.1" 404 681
+0:0:0:0:0:0:0:1 - - [24/Mar/2021:14:51:31 +0100] "GET /favicon.ico HTTP/1.1" 404 692
+0:0:0:0:0:0:0:1 - - [24/Mar/2021:14:51:42 +0100] "GET /BanqueTomcat HTTP/1.1" 302 -
+0:0:0:0:0:0:0:1 - - [24/Mar/2021:14:51:42 +0100] "GET /BanqueTomcat/ HTTP/1.1" 200 52

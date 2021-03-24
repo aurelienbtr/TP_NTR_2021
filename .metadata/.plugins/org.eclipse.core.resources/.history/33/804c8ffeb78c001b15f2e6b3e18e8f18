@@ -1,0 +1,20 @@
+import java.rmi.RemoteException;
+
+import javax.xml.rpc.ServiceException;
+
+import BanqueTomcat.uphf.ntr.FootResultsService;
+import BanqueTomcat.uphf.ntr.FootResultsServiceServiceLocator;
+import BanqueTomcat.uphf.ntr.Result;
+
+public class MyFootClient {
+
+	public static void main(String[] args) throws RemoteException, ServiceException {
+		System.out.println("From the Client ");
+		FootResultsServiceServiceLocator loc = new FootResultsServiceServiceLocator();
+		FootResultsService myservice =loc.getFootResultsService();
+		Result matchResult = myservice.retrieveResult("OM", "Nice");
+		System.out.println("Response "+ matchResult);
+
+	}
+
+}
