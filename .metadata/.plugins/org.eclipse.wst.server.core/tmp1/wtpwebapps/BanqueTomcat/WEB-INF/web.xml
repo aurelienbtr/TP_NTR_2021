@@ -8,6 +8,7 @@
 		<servlet-name>AxisServlet</servlet-name>
 		<display-name>Apache-Axis Servlet</display-name>
 		<servlet-class>org.apache.axis2.transport.http.AxisServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet>
 		<servlet-name>AxisAdminServlet</servlet-name>
@@ -16,14 +17,14 @@
 		<load-on-startup>100</load-on-startup>
 	</servlet>
 	<servlet>
-		<servlet-name>GetServlet</servlet-name>
-		<display-name>GetServlet</display-name>
-		<servlet-class>uphf.ntr.GetServlet</servlet-class>
+		<servlet-name>MyServlet</servlet-name>
+		<servlet-class>uphf.ntr.MyServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
 	</servlet>
 	<servlet>
-		<servlet-name>PostServlet</servlet-name>
-		<display-name>PostServlet</display-name>
-		<servlet-class>uphf.ntr.PostServlet</servlet-class>
+		<servlet-name>SecondServlet</servlet-name>
+		<servlet-class>uphf.ntr.SecondServlet</servlet-class>
+		<load-on-startup>1</load-on-startup>
 	</servlet>
 
 	<servlet-mapping>
@@ -43,12 +44,12 @@
 		<url-pattern>/axis2-admin/*</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
-		<servlet-name>GetServlet</servlet-name>
-		<url-pattern>/Get</url-pattern>
+		<servlet-name>MyServlet</servlet-name>
+		<url-pattern>/MyServlet</url-pattern>
 	</servlet-mapping>
 	<servlet-mapping>
-		<servlet-name>PostServlet</servlet-name>
-		<url-pattern>/Post</url-pattern>
+		<servlet-name>SecondServlet</servlet-name>
+		<url-pattern>/SecondServlet</url-pattern>
 	</servlet-mapping>
 	
 </web-app>

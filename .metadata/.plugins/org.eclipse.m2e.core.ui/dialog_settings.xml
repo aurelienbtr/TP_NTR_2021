@@ -46,12 +46,10 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
-			<item value="uphf.ntr"/>
 		</list>
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="AppliClient"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -69,6 +67,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\user\Desktop\rest"/>
 			<item value="C:\Users\user\Desktop\NTR2021-main\NTR2021-main\client\FootClient"/>
 			<item value="C:\Users\user\Desktop\AppliBanque"/>
 			<item value="C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\TestProjet_1"/>

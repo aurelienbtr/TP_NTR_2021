@@ -28,9 +28,9 @@ public class FootResultsServiceSoapBindingStub extends org.apache.axis.client.St
         oper.addParameter(param);
         param = new org.apache.axis.description.ParameterDesc(new javax.xml.namespace.QName("http://uphf.fr", "team2"), org.apache.axis.description.ParameterDesc.IN, new javax.xml.namespace.QName("http://www.w3.org/2001/XMLSchema", "string"), java.lang.String.class, false, false);
         oper.addParameter(param);
-        oper.setReturnType(new javax.xml.namespace.QName("http://uphf.fr", "Result"));
+        oper.setReturnType(new javax.xml.namespace.QName("http://uphf.ntr", "Result"));
         oper.setReturnClass(uphf.ntr.Result.class);
-        oper.setReturnQName(new javax.xml.namespace.QName("http://uphf.fr", "retrieveResultReturn"));
+        oper.setReturnQName(new javax.xml.namespace.QName("http://uphf.ntr", "retrieveResultReturn"));
         oper.setStyle(org.apache.axis.constants.Style.WRAPPED);
         oper.setUse(org.apache.axis.constants.Use.LITERAL);
         _operations[0] = oper;
@@ -66,7 +66,7 @@ public class FootResultsServiceSoapBindingStub extends org.apache.axis.client.St
             java.lang.Class simpledf = org.apache.axis.encoding.ser.SimpleDeserializerFactory.class;
             java.lang.Class simplelistsf = org.apache.axis.encoding.ser.SimpleListSerializerFactory.class;
             java.lang.Class simplelistdf = org.apache.axis.encoding.ser.SimpleListDeserializerFactory.class;
-            qName = new javax.xml.namespace.QName("http://uphf.fr", "Result");
+            qName = new javax.xml.namespace.QName("http://uphf.ntr", "Result");
             cachedSerQNames.add(qName);
             cls = uphf.ntr.Result.class;
             cachedSerClasses.add(cls);
