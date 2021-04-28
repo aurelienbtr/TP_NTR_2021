@@ -5,6 +5,8 @@ C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.js
 \BanqueTomcat\src
 C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3100738270.index
 \banque\src\main\java
+C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\188743712.index
+\GatewayServer\src\main\resources
 C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1149386167.index
 \BanqueTomcat\src
 C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\406861685.index
@@ -35,6 +37,8 @@ C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.js
 \REST\src\main\resources
 C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3912700962.index
 \BanqueTomcat\src
+C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\191980884.index
+\Gateway\src\main\resources
 C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\738882827.index
 \BanqueTomcat\src
 C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\618840850.index
@@ -45,3 +49,5 @@ C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.js
 \AppliTomcat\src\main\resources
 C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\3927938834.index
 \BanqueTomcat\src
+C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\551323921.index
+\GatewayClient\src\main\resources

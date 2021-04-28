@@ -1,0 +1,43 @@
+<html xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+
+<body>
+
+<div id="uphf-container">
+    <div class="uphf-profile">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-home"></i><span>Profil</span>
+            </div>
+            <div class="card-body">
+                <ul>
+                    <li>
+                        Nom : <span th:text="${session.current_client.nom}" class="show-profile-infos-nom"></span>
+                    </li>
+                    <li>
+                        Prénom : <span th:text="${session.current_user.prenom}" class="show-profile-infos-prenom"></span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-home"></i><span>Vos produits</span>
+            </div>
+            <div class="card-body">
+                <div class="row">
+                    <div class="card col-2" th:each="Produit : ${list_Produit}">
+                        <div class="card-body">
+                            <span th:text="${Produit.nom}"></span>
+                        </div>
+                        <a th:href="@{'/location/show?id=' + ${location.id}}" class="uphf-link-overlay"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

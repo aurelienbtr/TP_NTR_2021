@@ -1,0 +1,41 @@
+<html>
+<head/>
+<body>
+<div id="uphf-container">
+    <div class="uphf-content">
+        <form th:action="@{/registration}" method="post" class="uphf-form-generic">
+            <h1>Formulaire d'inscription</h1>
+
+            <div class="uphf-form-block">
+                <input type="text" class="form-control" name="nom" placeholder="Nom">
+            </div>
+            <div class="uphf-form-block">
+                <input type="text" class="form-control" name="prenom" placeholder="Prenom">
+            </div>
+            <div class="uphf-form-block">
+                <input type="password" class="form-control" name="password" placeholder="Mot de passe">
+            </div>
+            <div class="uphf-form-block">
+                <input type="password" class="form-control" name="confirmPassword" placeholder="Répéter le mot de pase">
+            </div>
+            <div class="uphf-form-block">
+                <input type="number" class="form-control" name="bankAccount" placeholder="Votre compte">
+            </div>
+            <div class="uphf-form-block">
+                <input type="submit" class="btn btn-dark" value="S'inscrire"/>
+            </div>
+            <div class="uphf-form-block">
+                <a th:href="@{/}" class="uphf-link-account">Retour</a>
+            </div>
+        </form>
+
+
+        <div th:if="${param.error}" class="uphf-alerts">
+            <div class="alert alert-danger">
+                <p>Nom d'utilisateur ou mot de passe invalide.</p>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
