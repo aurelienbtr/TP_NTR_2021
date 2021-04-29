@@ -1,0 +1,53 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+    <listener>
+        <listener-class>
+                com.sun.xml.ws.transport.http.servlet.WSServletContextListener
+        </listener-class>
+    </listener>
+    <servlet>
+        <servlet-name>RemboursementAchat</servlet-name>
+        <servlet-class>
+        	com.sun.xml.ws.transport.http.servlet.WSServlet
+        </servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>
+    <servlet>
+    	<servlet-name>AxisServlet</servlet-name>
+    	<display-name>Apache-Axis Servlet</display-name>
+    	<servlet-class>org.apache.axis2.transport.http.AxisServlet</servlet-class>
+    </servlet>
+    <servlet>
+    	<servlet-name>AxisAdminServlet</servlet-name>
+    	<display-name>Apache-Axis Admin Servlet Web Admin</display-name>
+    	<servlet-class>org.apache.axis2.transport.http.AxisAdminServlet</servlet-class>
+    	<load-on-startup>100</load-on-startup>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>RemboursementAchat</servlet-name>
+        <url-pattern>/soap-api</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>AxisServlet</servlet-name>
+    	<url-pattern>/servlet/AxisServlet</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>AxisServlet</servlet-name>
+    	<url-pattern>*.jws</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>AxisServlet</servlet-name>
+    	<url-pattern>/services/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+    	<servlet-name>AxisAdminServlet</servlet-name>
+    	<url-pattern>/axis2-admin/*</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>120</session-timeout>
+    </session-config>
+</web-app>

@@ -72,6 +72,7 @@
 	</section>
 	<section name="MavenProjectImportWizardPage">
 		<list key="rootDirectory">
+			<item value="C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\GatewayClient"/>
 			<item value="C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\AppliClientBanque\ClientBanque"/>
 			<item value="C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\BanqueNTR"/>
 			<item value="C:\Users\user\Desktop\WorkSpace_NTR_Tomcat\server-tomcat"/>
